@@ -1,0 +1,101 @@
+
+/* ! Layout for desktop version   */
+
+
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;	
+    
+    background:url(BGfloral.jpg);
+    background-size:100%;
+    -moz-background-size:100%; /* Firefox 3.6 */
+    background-repeat:no-repeat;
+    padding-top:40px;
+}
+
+header{
+   margin: 10px 0 0 0;
+	padding:10px;
+	margin-bottom:20px;
+
+ }
+
+ /* articles and paragraphs have padding of 10px and margin of 10px at the bottom*/
+.container p, article{
+	
+	line-height: 40px;
+	background: #8B7355;
+	/*Justify
+    text-align: justify;
+    text-justify:kashida;*/
+    
+    /*center the text*/
+    text-align:center;
+
+	margin: 20px 0 0 0;
+	padding:10px;
+	margin-bottom:10px;
+    
+	}
+
+/* Add round corners to a div*/
+#round{
+   border:2px solid;
+   border-radius:25px;
+   -moz-border-radius:25px;      
+ }
+   /*Shadow*/ 
+#shadow{  
+    -moz-box-shadow: 20px 20px 20px #8B795E; /* Firefox 3.6 and earlier */
+    box-shadow: 20px 10px 10px 5px #8B795E; 
+ }
+#roundShadow{
+    /*Round corners*/ 
+    border:2px solid;
+   border-radius:25px;
+   -moz-border-radius:25px; 
+   
+   /*Shadow*/  
+    -moz-box-shadow: 20px 20px 20px #8B795E; /* Firefox 3.6 and earlier */
+    box-shadow: 20px 10px 10px 5px #8B795E; 
+ }
+        
+/*css for the article tag. All articles have a round border and a shadow*/
+article{
+		border:2px solid;
+		border-radius:25px;
+		-moz-border-radius:25px;  
+        
+        /*Add a shodow around the article div*/   
+        -moz-box-shadow: 5px 8px 5px #8B795E; /* Firefox 3.6 and earlier */
+        box-shadow: 5px 8px 5px #8B795E;   
+        
+ }
+#inArticle{
+   margin:0;
+   padding:0;
+   
+ }
+
+ /*add a shadow to any text*/
+#textShadow{
+   text-shadow: 5px 5px 5px #000;
+ }
+ 
+#dropbox {
+	width: 260px;
+	height: 280px;
+	border: 2px solid #DDD;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	background-color: #FEFFEC;
+	text-align: center;
+	color: #BBB;
+	font-size: 2em;
+	font-family: Arial, sans-serif;
+}
+
+.thumb {
+    height: 75px;
+    border: 1px solid #000;
+    margin: 10px 5px 0 0;
+  }
