@@ -223,7 +223,8 @@ function initTextures() {
 }
 
 function handleTextureLoaded(image, texture) {
-  console.log("handleTextureLoaded, image = " + image);
+  //console.log("handleTextureLoaded, image = " + image);
+  gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
   gl.bindTexture(gl.TEXTURE_2D, texture);
   gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA,
         gl.UNSIGNED_BYTE, image);
