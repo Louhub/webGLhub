@@ -219,7 +219,7 @@ function initTextures() {
   cubeImage = new Image();
   cubeImage.crossOrigin = "anonymous";
   cubeImage.onload = function() { handleTextureLoaded(cubeImage, cubeTexture); }
-  cubeImage.src = "https://ashlandchristianschool.wikispaces.com/file/view/penguin.jpg/169472175/423x426/penguin.jpg"; 
+  cubeImage.src = "pengs.jpg"; 
 }
 
 function handleTextureLoaded(image, texture) {
